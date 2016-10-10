@@ -1,0 +1,7 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "phpmd.enabled": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "files.encoding": "utf8"
+}
