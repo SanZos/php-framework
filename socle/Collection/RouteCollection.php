@@ -60,7 +60,7 @@ class RouteCollection extends Collection {
     private function _findByRoute($url, $method){
         $url = strtok($url,"?");
         \Outils\Logger::debugLog($url, false, \Outils\Logger::route);
-        if(is_array($config->objet)) {
+        if(is_array($this->objet)) {
             foreach($this->objet as $route) {
                 if($route->method == $method) {
                     $rurl = strtolower($route->url);
